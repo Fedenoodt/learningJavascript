@@ -1,0 +1,438 @@
+    - Dìa #1: 15-05-2023_Lunes:
+
+Una cosa importante a tener presente a los conocimientos de HTML que ya sabès, es que HTML es un lenguaje hecho de atributos y etiquetas.
+Me gusta como Hack Academy define a un lenguaje: "Un lenguaje es un conjunto de sìmbolos y còdigos usados en el desarrollo de estructuras 
+que componen  un todo dentro de una aplicaciòn. (En otras palabras, es la manera en la que podemos indicarle a la màquina todo aquello que queremos generar)".
+
+Las etiquetas HTML son una pequeña porciòn de còdigo que generan elementos visuales, que se abren "<", y se cierran ">".
+Estas tienen distontas clases: estructurales, texto, multimedia, semànticas, formularios, y màs.
+
+Las etiquetas estructurales son escenciales en un documento HTML.
+!DOCTYPE (Document declaration type) declara el tipo de lenguaje, que se està implementando en el documento.
+
+La etiqueta HTML identifica que todo lo que contiene, es de lenguaje o documento html.
+Head es la pieza importante deñ documento, que configuran al documento.
+Meta se cierra sola, configura ciertos fundamentos del archivo.
+Title le da titulo a la web.
+
+Body arma a la pàgina de contenido.
+la etiqueta em (emfatizer) construye a un elemento en cursiva. Mientras que strong genera un texto en negrita.
+
+~Primer módulo de HTML aprobado a 80%~
+
+    - Día #2: 16-05-2022_Martes:
+Una "Ruta de archivo" describe la ubicación de un archivo en una estructura web.
+Hay dos tipos de rutas: absolutas o relativas. La absoluta demanda la ubicacion exacta desde el disco duro de ese archivo, o también de internet con su https.
+Las relativas solo necesitan la informaciòn escencial, nombre, o subcarpeta donde está ubicado.
+los atributos de src, y alt son escenciales para una etiqueta img, de imagen.
+alt es importante que estè bien descrito siempre.
+Es importante que las imagenes que rastrea un documento HTML, siempre esten en el directorio de la web, dado que es donde menos probablilidad de que se muevan, o corrupciòn, hay.
+
+Una cosa no menos relevante, es destacar las extenciones de Visual Studio Code que recomienda Javier de HackAcademy.
+ - Live server para levantar host web en línea.
+ - Prettier, para formatear los tabulados del código de manera cómoda.
+ - Path Intelisense para agregar el punto a la dirección actual de directorio.
+ - CTRL + k + t para acceder a estilos de VS Code.
+ - Material Theme icons, y VSCode Great Icons para personalización.
+
+La etiqueta A saignifica ancla. Existen tres enlaces, externos, internos, y locales.
+Los externos son los enlaces que no estan en el entorno de la web, y los locales, lo adverso, a una pàgina de dentro del entormo.
+Y los internos son los enlaces que se manejan dentro de esta misma web.
+
+La etiqueta IFRAME se utiliza para agregar contenido HTML externo a nuestra web.
+
+~Segundo módulo de HTML aprobado a 100%~
+
+    - Dìa #3: 22-05-2023_Lunes:
+
+Un concepto importante a tener en cuenta de CSS, es que cuando identificamos la "cosa" a cambiar de estilos, mediante llaves, a 
+ese conjunto de tèrminos se lo llama selector.
+
+El atributo para conectar la hoja de estilo, con la web "rel="stylesheet"" indica que es una relacion entre hojas de archivo.
+HREF define rutas, y en este caso, el camino a la ruta de la hoja de estilo.
+
+Los selectores tienen distintos tipos:
+
+Los de elemento seleccionan al "elemento" de la pàgina en cuestión. 
+El selector de clase, asigna estilos a varios tipos de elementos. Estos van en grupos, y es clave que la asignación de los mismos tenga lógica, y en ingles.
+Si seleccionas un tipo de elemento para aplicar una clase, especificandola, y usando ".clase", vas a usar esa clase, en esos elementos en especifico.
+El de id, selecciona a un ùnico elemento en concreto. La misma condiciòn de esppecificar estilos de una clase, para un elemento, funcionan con las id, pero ambas no son 
+recomendables.
+Y el de pseudo-clase, son selectores sobre selectores. Estos se aplican, generando cambios sobre selectores pre existentes. (Usan dos puntos, y les da un estado). La clase link no fue visitada, visited, es para marcar los sitios ya visitados, hover para marcar donde està parado el mouse, active, que le hiciste clic, y focus cuando uso las teclas para moverme por la página. Y solo hovver se puede usar en elementos que no son enlaces.
+En la jerarquìa de clases, la ùltima clase de la misma relevancia, es la que se toma en cuenta. Y respecto a los tipos de selectores, el id pesa más que la clase, y la clase más que el elemento.
+Si yo al mencionar a un elemento con clase, dejo un espacio despued de el nombre, y escribo otra, estas se aplicarían n veces.
+
+font-family guarda una lista de tipografías, las que usen comillas, es porque el nombre de la fuente tiene más de una palabra.
+Javier recomienda usar la tipografía escalable del tipo REM. Esta evalua el tamaño de la letra web, de los textos, y los compara a un rem como 16px.
+line-height maneja al interlineado del texto.
+Font weight: normal/bold maneja los tonos de negrita de los textos.
+text-allign alinea el texto a left-center-right-justify.
+text-decoration underline/line-through/none subraya el texto.
+
+~Tercer módulo de HTML aprobado a 100%~
+
+    - Día #4: 13-05-2023_Martes:
+
+Para establecer un color de fondo sobre algún elemento, existen cuatro maneras. Mediante una palabra definida por CSS, mediante un numero establecido rgb (0 a 255), RGB hexadecimal, una notación RGB abrebiada en hexadecimal, o HSL, que regula la matiz de color, satuaracion, y brillo.
+Importante usar background-image SOLO en CSS.
+background-...
+repeat se encarga de definir de como se repite la imagen de fondo.
+attachment: scroll/fixed, nos permite hacer que si/no se desplaze la imagen de fondo.
+size manipula el tamaño de la imagen de fondo. Cover y contains asiste a esta, cover rellena la página, mientras que contain rellena solo en ancho o alto.
+
+También backgroud-position toma la posición de la imagen de fondo, declarando con los ejes X e Y en que parte de la pantalla va a figurar.
+
+    - Dìa #5: 24-05-2023_Martes
+
+~Cuarto módulo de HTML re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
+
+Lo que separa a los elementos como los div, los h1 a 6, p, entre otros, a elementos del tipo textos, es que algunos son elementos de bloque, y otros de "en línea". Los elementos bloque, son los que ocupan "protagonicamente", todo el ancho de su contenedor. Mientras que los elementos en línea señalan a los tipos que se mantienen en el ancho que ocupan. El atributo display es capaz de alterarlos.
+
+    - Dìa #6: 25-05-2023_Miercoles:
+Width solo se aplica a elementos block. Con display se pueden meter en elementos inline.
+
+No es recomendado declarar un height a nada. Los tamaños de pantalla cambian, y las webs tambien.
+Div significa divisor.
+
+El box model (modelo de caja), es la dinámica que mueve a todos los elementos css.
+Este consiste en cuatro elementos: Contnent, Padding, Border, y Margin. Estas modifican la forma de la caja.
+
+~Quinto módulo de HTML aprobado a 88%~
+
+Para usar position, tenemos que definir las coordenadas del elemento para que funcione. 
+Fixed lo posiciona fijo e esa posición, aún con un scroll.
+Static es lo mismo que nosotros vemos con la dinámica estándar.
+Relative, se modifica con una posición relativa a la original.
+Absolute es un elemento con una posición bruta, que para los demas elementos del documento "no existe".
+Y solo si el elemento que lo contiene, posee position Relative puede concervar dicho atributo.
+
+    - Día #7: 27-05-2023_Sábado:
+
+Sidebar, es el "costado" de main, la caja principal.
+Allign 1, 2, o 3 separa a los contenedores en tercios.
+Flexbox es simplemente una forma de crear cajas dinámicas para la maquitación del sitio web.
+Con flex-direction determinamos si la divisiòn se realiza en filas o columnas (row/column).
+Allign-items alinea los items a un item en concreto.
+justify-contnent alinea a los elementos en la página.
+
+~Sexto módulo de HTML aprobado a 75%~
+
+    - Día #8: 29-05-2023_Lunes:
+
+Un formulario es lo que se usa para soliitar información al usuario.
+Dos cosas impòrtantes. El atributo method, y action.
+Action define quién procesa los datos, y method el método o protocolo para enviar los datos.
+POST es un metodo para enviar información sensible.
+formspree se puede usar para recibir correos cuando no sabes de backend.
+
+input es la etiqueta que ingresa los datos a el formulario. atributo type define el tipo, y name, su nombre. El placeHolder informa en texto al usuario de que se trata la casilla.
+El id del input se relacione con for de la etiqueta Label (etiqueta descriptiva externa) para que cuando se hace clic en este, salte a la casilla.
+
+Dos etiquetas a ver. Select, y textarea.
+
+Select necesita la etiqueta option para dar una lista desplegable. Da una lista de opciones a elegir.
+Textarea, por lo tanto, devuelve una casilla para dar comentarios, el atributo rows devuelve la cantidad de renglones a ofrecer.
+Radio Button da la oportunidad de elegir un valor booleano. Usa el atributo value "S/N" para esta, y se identifica como tipo (type) "radio".
+CheckBox es parecido a radio buttom, solo que se pueden seleccionar más de una opcion. Estos se identifican con "checkbox".
+
+~Séptimo módulo de HTML aprobado a 75%~
+
+    - Día #9: 30-05-2023_Martes:
+
+Mobile first busca que uno forme primero la web para un dispositivo movil.
+Lo mejor siempre es darle uso práctico a esto, dado que así uno puede evitar adecuar una web de escritorio en un celular.
+De hecho, en este sentido es mas fácil llegar a todos los dispositivos. Dato noo muy menor, es conveniente mostrar el contenido multimedia
+ justo, ya que la mayor parte deñ tiempo, se consulta la web de forma satelital.
+Meta es una etiqueta, su nombre viewport es donde carga el contenido en la web, mientras que contnent indica como quiere que se adapte 
+la web al dispositivo.
+
+    -Día #10: 31-05-2023_Miércoles:
+
+~Octavo módulo de HTML aprobado a 83%~
+
+Bootstrap es el framework utilitario para cubrir una hoja css.
+
+getbootstrap.com es la red donde se consigue cualquier bootstrap.
+<link href:"dirección del bootstrap" rel="stylesheet" integrity= "na dirección larga que usa bootstrap para saber que usamos uno." crossorigin = "Otro atributo que usa 
+bootstrap"> es lo que pegaríamos para usar una hoja de estilos en línea, esto si no la descargamos.
+
+    -Día #11: 01-06-2023_Jueves:
+
+Bootstrap cuenta con el sstema de grid. Este básicamente hace que dentro de si, haya medidas que respeten una convención, para facilitar la utilización.
+
+~Noveno módulo de HTML aprobado a 83%~
+
+    -Día #12: 05-06-2023_Lunes:
+
+El profesor aconseja usar un width del 90% o alrededores para que la web no se vea pegada a los marcos del body. Y no te olvides que margin: auto es para centrar el contenido del 
+que estemos hablando.
+
+
+    -Dìa #13: 07-06-2023_Miercoles:
+
+Según profesor, la programación es crear un conjunto de instrucciones que serán ejecutadas por una computadora.
+
+Javascript es un lenguaje de programación compilado, que se implementa en las páginas web. Este da dinamismo a las páginas.
+
+Algo importante a tener presente en las variables, conociendo mi estado actual, es recordar que typeof se utiliza para reconocer al tipo de variable que se esta mencionando.
+El profesor recomienda vincular un archivo javascript en html al final del cuerpo, dado que así queda totalmente abstraido de las funciones HTML. Esto porque si no se ejecuta el código JS antes que el resto del body.
+
+~Noveno módulo de JavasCript aprobado a 100%~
+
+    -Día #14: 08-06-2023_Jueves:
+
+~Décimo módulo de JavasCript re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
+
+Los valores truty o falsy consisten en todos esos valores que no son booleanos, pero los representan.
+
+    -Día ·15: 09-06-2023_Viernes:
+
+~Décimo módulo de JavasCript reprobado a 60%~
+~Décimo módulo de JavasCript recuperado a 100%~
+
+Javascript busca tener una representación en HTML cuando se estructura el programa, de eso se encarga el DOM. Este ya está integro en el programa. 
+Y document es lo que muestra dichos cambios. Los nodos son cada una de las partes de esta representación, representada en los objetos js.
+Recordar que Javascript puede alterar estilos CSS. Y no olvidar lo que aprendiste en CoderHouse, que es el querySelectorAll para agarrar todas las etiqutas a buscar. Este devuelve, por ejemplo, una lista de nodos.
+
+    -Día ·16: 10-06-2023_Sábado:
+
+Importante recordar que casi siempre es útil usar el QuerySelector para seleccionar elementos.
+
+~Onceavo módulo de JavasCript aprobado a 100%~
+
+Para hacer uso de styles en javascript, dentro de la convención, es importante el uso correcto de los terminos con guión, con camelCase (por ejemplo: border-style sería borderStyle).
+ClassList manipula a las clases de estilo, las agrega, modifica, elimina, y de más.
+
+.toggle crea una clase inexistente, y si la encuentra, la elimina.
+.contains informa si una clase con n nombre esiste con un valor booleano.
+
+~Doceavo módulo de JavasCript aprobado a 100%~
+
+    -Día #16: 12-06-2023_Lunes:
+
+La lista es una colección de objetos que guarda a un conjunto de valores en formato de lista.
+
+~Treceavo módulo de JavasCript aprobado a 100%~
+
+~Catorceavo módulo de JavasCript aprobado a 100%~
+
+El evento es cualquier interacción que hace el usuario con la página web.
+
+    -Día #17: 19-06-2023_Lunes:
+
+Los eventos observan distintos cambios en una página web, para generar cambios, con su término en código. El addEventListener().
+Event, en ocaciones es un atributo que puede ser necesario para capturar al evento en el programa. Event.target, por ejemplo, va directo a el elemento que se està tocando, para producir ese evento.
+
+~Quinceavo módulo de JavasCript reprobado a 60%~
+
+~Quinceavo módulo de JavasCript aprobado a 100%~
+
+    -Dìa #18: 21-06-2023_Miércoles:
+
+Respecto de los objetos, una cosa interesante a tener en cuenta, es que existe lo que se llama la notaciòn bracket, y la notacion dot. Cuando nos referimos a un elemento comcreto de un objeto, este 
+se puede ver así " Objeto['clave'] ", o así " Objeto.clave " respectivamente. Lo màs recomendable es usar la notaciòn dot, ya que es más visible en los objetos.
+
+    -Dìa #19: 22-06-2023_Jueves:
+
+Lo que el profesor quiere decir, con los mètodos, es que tanto con los objetos, como con cualquier atributo especifico en Javascript, los elementos son esas funciones que ejecutan dichos atributos.
+Por ejemplo, dentro del objeto. en el mètodo de un objeto, existe el mètodo .this, que es recursivo y se utiliza para hacer menciòn al objeto en cuestiòn repetidas veces. Esto porque si existen varios objetos con 
+el mismo mètodo, no hace falta siquiera establecer paràmetros. Solamente se llama a esa función.
+
+~Dieciseisavo módulo de JavasCript aprobado a 80%~
+
+    -Dìa #20: 23-06-2023_Viernes:
+
+Las API son un servicio programado de información, que se puede consumir en nuestras pàginas web. Ya sea creandolas, o usándolas.
+JSON, por ejemplo, es un formato de texto usado en muchos lenguajes, y en Javascript se usa mucho para leer API's.
+AJAX es una técnica para intercambiar información de la manera màs eficaz posible. Haciendo que se puedan realizar varias tareas a la vez. Mediante su asincronismo, se ejecutan varias tareas a la vez, sin saber cuando acaban. Y en Javascript esta muy presente con las API's.
+Con el Fetch, uno puede acceder a la url de una API, y con el .then se interactua con la misma, devolviendo los datos brindados por ese JSON.
+
+~Diecisieteavo módulo de JavasCript aprobado a 75%~
+~Cursada inicial finalizada.~
+
+    -Día #21: 24-06-2023_Sàbado:
+
+Habiendo finalizado la cursada, ahora lo que queda por hacer, es hacer un repaso de los contenidos que quedaron mas flojos, y que también son importantes volver a ver, en tres importantes secciones. Un repaso acadèmico, un repaso contemporáneo, y una última revisión. 
+En el repaso académico, ajustar notas con los módulos que reprobé inicialmente, y con las bajas notas. Está permitido seguir anotando. Y luego los que fueron aprobados con una nota inferior a 100%, y mayor a 70%.
+En el repaso contemporáneo, evaluar los conteniodos que considero necesarios para ejercer una buena práctica luego de finalizar.
+Y en la última revisión, ver todos los videos, de todas las clases, sin hacer más que escuchar, y atender.
+
+A continuación, procedo a mencionar la nota de cada módulo...
+
+~Primer módulo de HTML aprobado a 80%~
+~Segundo módulo de HTML aprobado a 100%~
+~Tercer módulo de HTML aprobado a 100%~
+~Cuarto módulo de HTML re hecho a causa de un error de concepto en la pregunta, y aprobado a 100%~
+~Quinto módulo de HTML aprobado a 88%~
+~Sexto módulo de HTML aprobado a 75%~
+~Séptimo módulo de HTML aprobado a 75%~
+~Octavo módulo de HTML aprobado a 83%~
+~Noveno módulo de HTML aprobado a 83%~
+~Noveno módulo de JavasCript aprobado a 100%~
+~Décimo módulo de JavasCript reprobado a 60%~
+~Décimo módulo de JavasCript recuperado a 100%~
+~Onceavo módulo de JavasCript aprobado a 100%~
+~Doceavo módulo de JavasCript aprobado a 100%~
+~Treceavo módulo de JavasCript aprobado a 100%~
+~Catorceavo módulo de JavasCript aprobado a 100%~
+~Quinceavo módulo de JavasCript reprobado a 60%~
+~Quinceavo módulo de JavasCript aprobado a 100%~
+~Dieciseisavo módulo de JavasCript aprobado a 80%~
+~Diecisieteavo módulo de JavasCript aprobado a 75%~
+~Cursada inicial finalizada.~
+
+El orden que va a tener el repaso académico, va a estar ligado al de la siguiente lista.
+
+~#10, #15, #5, #8, #9, #1, #16, #6, #7, #17~
+
+A continuación de este orden, va a tener lugar el repaso contemporáneo, que básicamente va a tener una revisiòn mas pasiva de coneptos, generalmente relacionados con estilos CSS, y manejos del template HTML, pero va a tener algo de JavasCript. A continuaciòn procedo 
+a mencionar cuales seran los módulos, que no van a tener exámen, pero si, una evaluaciòn del trabajo práctico en el mismo.
+
+~#1, #2, #3, #5, #6, #7, #8, #9, #14, #15, #16, #17~
+
+Y lo ideal sería, que sobre tiempo, para hacer la última revisión, ya como el epilogo de esta práctica.
+
+Dejando las palabras de lado. Acudamos a la práctica.
+
+Con respecto a la etiqueta script dentro del cuerpo HTML. Es muy importante diferenciar estos dos casos. Cuando se va a implementar unas pocas modificaciones al còdigo, esta se pone al pie del body, si no es asì, si es que se quiere crear el bodi, se puede poner al 
+final del head.
+
+~Décimo módulo de JavasCript vuelto a evaluar a 100%~
+
+    -Día #22: 26-06-2023_Lunes:
+
+El evento es todo suceso que se produce en una web. estos se escuchan con addEventListener. Los tipos de eventos son esas acciones que disparan movimientos en la web. Como puedes ser click, y dblclick, el mouseenter, y mouseleave, cuando entran y salen del elemento respectivamente, y mouseover resume las acciones de los dos en uno solo, mousemove se usa para la creacion de juegos en general, y detecta movimiento del mouse, y 
+respecto del teclado, keydown, es cuando se empieza a presionar una tecla, keypress, para cuando se produce un caractèr, y keyup cuando se libera. Respecto del navegador, el load es cuando el navegador carga la página, resize se dispara cuando estamos cambiando el ancho de la ventana,. y scroll cuando hacemos scroll en la web. En el formulario tenemos cosas como change, detecta si hubo cambios dentro del campo del 
+formulario, reset reinicia el formulario, submit envia la información, input cuando hacemos clic, o marcamos con una tecla, focus pasamos dentro del elemento, y blur cuando sale.
+
+addEventListener recibe a dos parámetros, el nombre de dicho elemento, y una funciòn de llamada, para reaccionar a lo que busque esta interacción.
+Dentro de la estructtura de un formulario, se usa el prefijo "on..." cuando nosotros mencionamos a un tipo de evento concreto, en la llamada a función de la etiqueta analizada, esta es otra forma de hacerlo. 
+preventDefault() va a evitar que un formulario se comporte de manera convenxcional, y evitar que este quiebre.
+
+~Quinceavo módulo de JavasCript vuelto a evaluar a 100%~
+
+    -Día #23: 05-07-2023_Miercoles:
+
+~Quinto módulo de HTML vuelto a evaluar a 100%~
+
+    -Día #24: 06-07-2023_Jueves:
+
+Es importante tener moción de la propiedad de Box-sizing: border-box. Porque sin ella, cuando hacemos diseño responsive, tendrìamos que acer siempre restas para eliminar los valores del padding, y border. 
+
+~Octavo módulo de HTML vuelto a evaluar a 100%~
+~Noveno módulo de HTML vuelto a evaluar, y reprobado a 83%~
+~Noveno módulo de HTML vuelto a evaluar a 100%~
+
+    -Dìa #25: 08-07-2023_Sábado:
+
+Importante mantener presente la importancia de la etiqueta <!DOCTYPE html>. Ya que esta declara la versiòn html a utilizar, por ende, esto pùede producir fallos al no tenerlo presente.
+Y recordar de el atajo "!", para montar una estructura completa de HTML.
+El atributo lang de la etiqueta HTML, es para definir el lenguaje de la web. Recordarlo.
+Tener en cuenta que en la semántica de HTML, es importante usar un solo H1, un solo titulo principal del tema a tratar.
+
+~Primer módulo de HTML vuelto a evaluar a 100%~
+
+Recordar que el foreach es más cómodo para ejecutar funciones, recorriendo listas.
+
+~Dieciseisavo módulo de JavasCript vuelto a evaluar a 100%~
+
+Recordar que el allign-items sirve para que los elementos se alinien de forma deseada. Y que flex-wrap: wrap hace que se distribuyan los elementos flex de manera correcta.
+
+~Sexto módulo de HTML vuelto a evaluar a 100%~
+
+    -Día #26: 10-07-2023_Lumes:
+
+~Séptimo módulo de HTML vuelto a evaluar, y reprobado a 88%~
+~Séptimo módulo de HTML vuelto a evaluar a 100%~
+~Diecisieteavo módulo de JavasCript vuelto a evaluar a 100%~
+~Repaso académico finalizado.~
+
+    -Día #27: 11-07-2023_Martes:
+
+~Primer módulo de HTML vuelto a evaluar a 100%~
+~Segundo módulo de HTML vuelto a evaluar a 100%~
+
+Respecto de la tipografìa, existen varias solicitudes cuando se llama a la fuente, en caso de que una de estas no exista en el sistema, se busca otras de estas.
+
+~Tercer módulo de HTML vuelto a evaluar a 100%~
+
+    -Dìa #28: 12-07-2023_Miercoles:
+
+~Quinto módulo de HTML vuelto a evaluar a 100%~
+~Sexto módulo de HTML vuelto a evaluar a 100%~
+~Séptimo módulo de HTML vuelto a evaluar a 100%~
+~Octavo módulo de HTML vuelto a evaluar a 100%~
+
+Recordar que "Viewport" en la etiquetta meta, que define a la transformación responsive de la web, es la ventana de vista de la web, el body en su escencia.
+
+
+~Noveno módulo de HTML vuelto a evaluar a 100%~
+
+    -Dìa #29: 13-07-2023_Jueves:
+
+Es importante recordar que los estilos CSS en Javascript, se remplaza a los que tienen guión, por un camelCase.
+
+~Catorceavo módulo de JavasCript vuelto a evaluar a 100%~
+~Quinceavo módulo de JavasCript vuelto a evaluar a 100%~
+~Dieciseisavo módulo de JavasCript vuelto a evaluar a 100%~
+~Diecisieteavo módulo de JavasCript vuelto a evaluar a 100%~
+
+
+Recibido certificado de HackAcademy, acerca de Curso Introductorio de HTML, CSS, y JavaScript
+
+https://plataforma.ha.dev/certificates/sfwhnzldmk
+PDF en este directorio.
+
+Permanecemos a la espera del Lunes, 31 de Julio de 2023 para la inicialización del último paso de los repasos. El repaso rápido.
+
+    -Día #30: 03-07-2023_Jueves:
+
+Con el "HTML:..." (Podés indicar la versiòn de HTML que vas a usar.)
+
+    -Día #31: 04-07-2023_Viernes:
+
+~Primer módulo de HTML visto nuevamente~
+~Segundo módulo de HTML visto nuevamente~
+
+    -Día #32: 07-07-2023_Lunes:
+
+~Tercer módulo de HTML visto nuevamente~
+~Cuarto módulo de HTML visto nuevamente~    
+~Quinto módulo de HTML visto nuevamente~
+
+    -Día #33: 08-07-2023_Martes:
+
+~Sexto módulo de HTML visto nuevamente~
+~Séptimo módulo de HTML visto nuevamente~
+~Octavo módulo de HTML visto nuevamente~
+~Noveno módulo de HTML visto nuevamente~
+
+    -Día #34: 09-07-2023_Miércoles:
+
+Recordar que // es para comentar una sola lìnea, y /* para comentar varias lìneas */.
+~Décimo módulo de JavasCript visto nuevamente~
+~Onceavo módulo de JavasCript visto nuevamente~
+
+    -Día #35: 10-07-2023_Jueves:
+
+~Doceavo módulo de JavasCript visto nuevamente~
+~Treceavo módulo de JavasCript visto nuevamente~
+
+    -Día #36: 11-07-2023_Viernes:
+
+
+~Catorceavo módulo de JavasCript visto nuevamente~
+~Quinceavo módulo de JavasCript visto nuevamente~
+
+    -Día #37: 12-07-2023_Sábado:
+
+
+~Dieciseisavo módulo de JavasCript visto nuevamente~
+
+Importante recordar el uso de la extensión JSON Formatter para per texto JSON "parseado".
+
+~Diesisieteavo módulo de JavasCript visto nuevamente~
+
+    -Día #38: 21-08-2023_Lunes:
+
+Habiendo terminado todos los repasos, El mòdulo de Hack Academy HTML, CSS, y JavaScript ha concluido.

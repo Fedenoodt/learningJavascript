@@ -1,0 +1,54 @@
+    Clase #1: 23-08-2022_Martes:
+
+JavaScript. Como mencione en mis estudios, camelCase sensitive, fuertemente tipado, y de más. Formado en Ecmascript, y muy demandado a nivel internacional.
+
+Explicó algoritmos.
+
+Pidió instalar Node JS. Y la extensión para VS Code Live Server para entrar en sistema. Y Code Runner
+
+Buscar IT Recriuters para venderme como programador.
+-- CLASE VALIDADA --
+
+    -Clase #2: 26-08-2022_Jueves(Ausente):
+Hoy estuvieron haciendo contenido con respecto de variables, el prompt, y cosas que ya había visto. Algo interesante a destacar, es que typeof() sirve para 
+mostrar que tipo de variable es.
+-- CLASE VALIDADA --
+
+
+    -Clase #3: 30-08-2022_Martes:
+Hoy no estuvimos viendo mucho más de lo que yo haya estudiado. Vimos sobre todo temas como los condicionales, flujos.
+Como dato interesante, parseInt() sirve para convertir un "numero string" a entero solamente, y lo mosmo pasa con los float con parseFloat()
+-- CLASE VALIDADA --
+
+    -Post-Clase #1: 31-08-2022_Miércoles:
+Algo que tengo para decir, es que el parseInt y parseFloat, son muy importantes para "validar" los tipos de números.
+
+Hoy efectivamente nos pusimos a ver y repasar los condicionales.
+
+Datazo: "Ctrl" + "}" para comentar/descomentar.
+
+[ https://chat.whatsapp.com/CUcDnI8XdZZ33EJy7f1pYM ] Es el enlace de Whatsapp del grupo.
+-- CLASE VALIDADA --
+
+    -Post-Clase #2: 02-09-2022_Viernes:
+Hoy fue un mero repaso de todo lo que estamos viendo de iteraciones y ciclos.
+-- CLASE VALIDADA --
+
+    -Clase #4: 06-09-2022_Martes:
+Las funciones flecha son funciones dentro de variables que solamente devuelven un valor desde parámetros, este separado por una flecha "=>".
+Hoy evaluamos mucho todo sobre variables, y conocimos las funciones.
+Y mostró un simulador interactivo, un desafío entregable.
+-- CLASE VALIDADA --
+
+    -Clase #11: 29-09-2022_Jueves:
+Yo estoy resolviendo la entrega de hoy, pero de mientras estoy viendo que el profe está haciendo una superClase de repaso.
+IMPORTANTE: El Storage, nos lo enseñó el profe, para mostrarnos que es la herramienta que "protege" los cambios, para que la página no se refresque ante eventos.
+
+    -Revisión del final #1: 11-11-2022_Viernes:
+Básicamente el profesor me marcó dos pautas:
+1 • El fetch no tieme ningún uso práctico. El quiere que se lo de.
+2 • El JSON presenta errores en el cierre del mismo, además de varios errores que conviene revisar.
+
+    -Revisión del final #2: 14-11-2022_Lunes:
+Otra de las cosas que el profesor me marcó, fuew que tengo una solicitud fetch que no estoy usando para nada.
+Que es la de el post, y un poco la del console.log. Eliminarlas.
